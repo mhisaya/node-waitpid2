@@ -15,10 +15,10 @@
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
-    "node-pre-gyp": "^0.6.33"
+    "node-pre-gyp": "^0.13.0"
   },
   "devDependencies": {
-    "node-pre-gyp-github": "^1.3.1"
+    "node-pre-gyp-github": "^1.4.3"
   },
   "bundledDependencies": [
     "node-pre-gyp"
