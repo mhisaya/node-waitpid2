@@ -5,7 +5,7 @@
   "main": "lib/waitpid.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unbounce/node-waitpid2.git"
+    "url": "https://github.com/mhisaya/node-waitpid2.git"
   },
   "keywords": [
     "waitpid",
