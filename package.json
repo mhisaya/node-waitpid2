@@ -15,7 +15,7 @@
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
-    "node-pre-gyp": "^1.0.8"
+    "node-pre-gyp": "^0.17.0"
   },
   "devDependencies": {
     "node-pre-gyp-github": "^1.4.3"
