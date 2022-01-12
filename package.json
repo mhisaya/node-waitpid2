@@ -15,7 +15,7 @@
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
-    "node-pre-gyp": "^0.13.0"
+    "node-pre-gyp": "^1.0.8"
   },
   "devDependencies": {
     "node-pre-gyp-github": "^1.4.3"
@@ -26,11 +26,5 @@
   "scripts": {
     "prepublish": "npm ls",
     "install": "node-pre-gyp install --fallback-to-build"
-  },
-  "binary": {
-    "module_name": "waitpid",
-    "module_path": "./lib/binding/",
-    "host": "https://github.com/unbounce/node-waitpid2/releases/download/",
-    "remote_path": "{version}"
   }
 }
