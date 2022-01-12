@@ -26,5 +26,11 @@
   "scripts": {
     "prepublish": "npm ls",
     "install": "node-pre-gyp install --fallback-to-build"
+  },
+  "binary": {
+    "module_name": "waitpid",
+    "module_path": "./lib/binding/",
+    "host": "https://github.com/mhisaya/node-waitpid2/releases/download/",
+    "remote_path": "{version}"  
   }
 }
